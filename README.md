@@ -4,7 +4,7 @@
 The goal of this project is to generate anime-style avatar images using a Deep Convolutional Generative Adversarial Network (DCGAN).
 
 ## Dataset
-The model is trained on an anime face dataset containing 2500 RGB images with a resolution of 96×96 pixels. The images are resized to 64×64 and normalized before training.
+The model is trained on an anime face dataset containing 2500 RGB images with a resolution of 96×96 pixels. The images are resized to 64×64 and normalized before training.The model is trained on an anime face dataset. The dataset contains anime-style avatar images that are used to train the DCGAN model to learn the distribution of anime faces.
 
 ## Model
 The DCGAN architecture consists of a Generator and a Discriminator trained in an adversarial framework.
