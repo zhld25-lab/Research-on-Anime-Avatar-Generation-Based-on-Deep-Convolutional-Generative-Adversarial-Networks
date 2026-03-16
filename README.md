@@ -17,3 +17,14 @@ Optimizer: Adam
 Learning Rate: 0.0002  
 Batch Size: 128  
 Epochs: 50
+
+## Project Structure
+Research-on-Anime-Avatar-Generation-Based-on-Deep-Convolutional-Generative-Adversarial-Networks/
+├── README.md                     # Project description and documentation
+├── code.ipynb                    # Jupyter notebook containing the DCGAN training code
+├── dataset information.txt       # Description of the dataset used for training
+├── anime_dcgan_checkpoint.pth    # Trained DCGAN model checkpoint
+│
+├── final_generated_faces.png     # Final generated anime avatar samples
+├── generator_progression.png     # Visualization of generator progress during training
+├── training_loss_curve.png       # Training loss curve for generator and discriminator
